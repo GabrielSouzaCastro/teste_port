@@ -1,0 +1,74 @@
+*{
+   font-family: 'inter';
+}
+body{
+   background: hsl(0, 0%, 12%);
+   color: #fff;
+}
+
+main {
+   display: flex;
+   flex-direction: column;   
+   align-items: center;
+}
+
+ .pessoa_img {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   object-fit: cover;
+   margin: 35px auto 45px;
+ }
+
+ .pessoa_nome {
+   font-size: 32px;
+   font-weight: 700;
+   margin-bottom: .75rem;
+ }
+
+ .pessoa_cidade {
+   font-size: 20px;
+   font-weight: 600;
+   margin-bottom:24px ;
+   color:hsl(75, 94%, 57%);
+ }
+
+ .pessoa_profissao {
+   font-size: 18px;
+   margin-bottom: 16px;
+   font-weight:600;
+ }
+
+.redes_sociais {
+   width: 300px;
+   height: 300px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+}
+
+ .links_sociais {
+   display: flex;
+   justify-content: center;
+   align-items: center;   
+   width: 100%;
+   height: 50px;
+   background-color:hsla(0, 0%, 100%, 0.13);
+   border-radius: 10px;
+   text-align: center;
+ }
+
+ .links_sociais:hover {
+   background-color: hsl(75, 94%, 57%);   
+ }
+ 
+ .links_sociais a {
+   text-decoration: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight:600;
+   font-size: 18px;
+ }
+
+
